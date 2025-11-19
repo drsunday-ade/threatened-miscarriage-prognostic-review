@@ -1,0 +1,698 @@
+Category,VariableName,ExtractedValue,Notes
+Study identifiers,study_id,AlMohamady_2016,Internal ID constructed as FirstAuthor_Year
+Study identifiers,first_author,Al Mohamady,
+Study identifiers,publication_year,2016,
+Study identifiers,journal,International Journal of Fertility and Sterility,
+Study identifiers,doi,,DOI not reported in article text provided
+Study identifiers,country,Egypt,"Kasr El-Aini Hospital, Cairo University"
+Study identifiers,setting,"Outpatient clinic and casualty department, Obstetrics and Gynecology, Kasr El-Aini Hospital",
+Study identifiers,study_design,Prospective comparative case-control study,
+Study identifiers,recruitment_period,March 2013–October 2013,
+Study identifiers,funding_source,Not reported,
+Study identifiers,registration_id,Not reported,
+Eligibility & sample,sample_size_total,100,105 initially recruited; 5 dropped out; 100 analyzed
+Eligibility & sample,n_tm,100,All had first-trimester threatened miscarriage
+Eligibility & sample,n_miscarriage,20,Group 1
+Eligibility & sample,n_ongoing,80,Group 2; continued to at least 20 weeks
+Eligibility & sample,inclusion_criteria,"Women 20–40 years with singleton spontaneous pregnancy, 7–13 weeks gestation, vaginal bleeding/spotting, viable intrauterine pregnancy with visible gestational sac and cardiac activity on ultrasound; regular cycles with LMP correlating with ultrasound.",
+Eligibility & sample,exclusion_criteria,"History of diabetes or thyroid disease; fibroids or adnexal masses; uterine malformations (e.g., hypoplastic or septate uterus); recurrent miscarriages; maternal diseases that increase CA-125 (chronic pelvic infection, endometriosis); abnormal dating scan (blighted ovum, missed miscarriage).",
+Eligibility & sample,ga_range_included,7–13 weeks,Gestational age at recruitment
+Eligibility & sample,maternal_age_range,20–40 years,
+Baseline maternal,mean_maternal_age,,Not numerically reported; only that no significant difference between groups
+Baseline maternal,parity_distribution,,Parity mentioned but not given numerically
+Baseline maternal,prior_miscarriage_any_n,,Women with recurrent miscarriage history were excluded; exact counts not reported
+Baseline maternal,assisted_conception_n,,Not reported
+Presentation,ga_at_presentation_group1_mean_weeks,8.8,Group 1 miscarried; from Table 1
+Presentation,ga_at_presentation_group2_mean_weeks,9.2,Group 2 continued; Table 1 P=0.304 (NS)
+Presentation,bleeding_required,Yes,All presented with vaginal bleeding or spotting
+Presentation,bleeding_severity,,Amount of bleeding assessed clinically but not quantified in categories in results
+Presentation,pain_recorded,,Abdominal pain not explicitly reported
+Ultrasound predictors,ultrasound_machine,"Accuvix (Medison, Korea)",4–7 MHz endovaginal probe
+Ultrasound predictors,probe_frequency_mhz,4–7,Endovaginal
+Ultrasound predictors,viable_iup_confirmed_definition,Visible gestational sac with living embryo verified by cardiac activity on real-time ultrasound,
+Ultrasound predictors,gremium_ga_assessment_method,Gestational age assessed from LMP (preceded by 3 regular cycles) and correlated with ultrasound measurements,
+Ultrasound predictors,gsd_group1_mean_mm,30.0,Gestational sac diameter (miscarried group)
+Ultrasound predictors,gsd_group2_mean_mm,37.7,Gestational sac diameter (continued group); P=0.023
+Ultrasound predictors,crl_group1_mean_mm,24.0,Crown–rump length (miscarried group); P=0.317 vs group 2
+Ultrasound predictors,crl_group2_mean_mm,28.5,Crown–rump length (continued group)
+Ultrasound predictors,fhr_group1_mean_bpm,122,Fetal heart rate (miscarried group)
+Ultrasound predictors,fhr_group2_mean_bpm,156.9,Fetal heart rate (continued group); P<0.001
+Ultrasound predictors,sch_present_group1_n,5,Presence of subchorionic hematoma in miscarried group (n=20)
+Ultrasound predictors,sch_present_group2_n,2,Presence of subchorionic hematoma in continued group (n=80); P=0.002 overall
+Ultrasound predictors,sch_size_measurement,,Presence/absence only; size and site not quantified
+Biochemical markers,ca125_assay_type,"Direct chemiluminometric assay (ADVIA Centaur, Bayer Health Care Diagnostics, USA)",
+Biochemical markers,ca125_unit,IU/ml,
+Biochemical markers,ca125_group1_mean,54.28,Mean CA-125 in miscarried group ± SD 11.4 IU/ml
+Biochemical markers,ca125_group1_sd,11.4,
+Biochemical markers,ca125_group2_mean,18.81,Mean CA-125 in continued group ± SD 8.02 IU/ml
+Biochemical markers,ca125_group2_sd,8.02,
+Biochemical markers,progesterone_assay_type,"Direct chemiluminometric assay (ADVIA Centaur, Bayer Health Care Diagnostics, USA)",
+Biochemical markers,progesterone_unit,ng/ml,
+Biochemical markers,progesterone_group1_mean,8.7,Mean serum progesterone in miscarried group ± SD 1.85 ng/ml
+Biochemical markers,progesterone_group1_sd,1.85,
+Biochemical markers,progesterone_group2_mean,26.3,Mean serum progesterone in continued group ± SD 7.2 ng/ml
+Biochemical markers,progesterone_group2_sd,7.2,
+Biochemical markers,blood_sample_volume_ml,5,5 ml venous sample
+Biochemical markers,sample_handling,Serum separated after clotting by centrifugation at 3000 rpm for 10 minutes; stored at -80°C until batch analysis,
+Biochemical markers,correlation_ca125_progesterone_r,-0.716,"CA-125 vs progesterone, P<0.001"
+Biochemical markers,correlation_ca125_fhr_r,-0.414,"CA-125 vs FHR, P<0.001"
+Biochemical markers,correlation_progesterone_gsd_r,0.521,"Progesterone vs GSD, P<0.001"
+Biochemical markers,correlation_progesterone_crl_r,0.407,"Progesterone vs CRL, P<0.001"
+Biochemical markers,correlation_progesterone_fhr_r,0.363,"Progesterone vs FHR, P<0.001"
+Outcomes,outcome_primary_definition,Miscarriage before 20 weeks vs continuation of pregnancy to at least 20 weeks,Follow-up until 20 weeks gestation
+Outcomes,followup_end_ga_weeks,20,
+Performance metrics,ca125_cutoff_main,31.2,IU/ml; threshold for predicting miscarriage
+Performance metrics,ca125_sensitivity_main_cutoff,96.2,Percent
+Performance metrics,ca125_specificity_main_cutoff,100,Percent
+Performance metrics,ca125_overall_accuracy,99.4,Percent; as reported
+Performance metrics,progesterone_cutoff_main,11.5,ng/ml; threshold for predicting miscarriage
+Performance metrics,progesterone_sensitivity_main_cutoff,97.5,Percent
+Performance metrics,progesterone_specificity_main_cutoff,100,Percent
+Performance metrics,progesterone_overall_accuracy,99.8,Percent; as reported
+Performance metrics,auc_ca125,,ROC used but AUC not numerically reported
+Performance metrics,auc_progesterone,,ROC used but AUC not numerically reported
+Study identifiers,study_id,Cao_2025,Internal ID constructed as FirstAuthor_Year
+Study identifiers,first_author,Cao,Yurong Cao
+Study identifiers,publication_year,2025,
+Study identifiers,journal,PLOS One,
+Study identifiers,doi,10.1371/journal.pone.0326384,
+Study identifiers,country,"Multinational (Asia, Europe, Africa)","Included study populations: Asia, Europe, Africa"
+Study identifiers,setting,Hospital-based threatened abortion populations from 13 primary studies,
+Study identifiers,study_design,Systematic review and meta-analysis of prognostic accuracy,
+Study identifiers,prisma_followed,Yes,Followed PRISMA 2020 guidelines
+Study identifiers,prospero_registration_id,CRD42024600834,International Prospective Register of Systematic Reviews
+Study identifiers,search_databases,Web of Science; Medline via PubMed; ScienceDirect; EMBASE; Geenmedical; Cochrane Library; Wiley,
+Study identifiers,search_period,"Inception to May 30, 2024",
+Study identifiers,search_terms,(serum cancer antigen125 OR serum CA125 OR CA125 OR CA-125) AND (threatened abortion OR threatened miscarriage OR pregnancy loss OR first trimester abortion OR first trimester pregnancy OR early pregnancy failure OR pregnancy outcome),
+Study identifiers,funding_source,No specific funding,Authors reported no specific funding
+Study identifiers,registration_id,CRD42024600834,Same as PROSPERO registration
+Eligibility & sample,sample_size_total,1166,Total patients with threatened abortion across 13 included studies
+Eligibility & sample,n_miscarriage,387,Total miscarriage cases across included studies
+Eligibility & sample,n_ongoing,779,Patients with ongoing or normal pregnancy/delivery after follow-up
+Eligibility & sample,number_of_included_studies,13,
+Eligibility & sample,inclusion_criteria,"Patients with threatened abortion defined per ACOG: 5–20 weeks gestation with vaginal bleeding and/or abdominal pain, closed cervical os, intact membranes, viable intrauterine pregnancy with fetal cardiac activity on ultrasound; studies evaluating CA125 prognostic value for miscarriage with sensitivity and specificity available.",
+Eligibility & sample,exclusion_criteria,"Case reports, conference abstracts, systematic reviews, animal experiments, letters; duplicate publications; studies without threatened abortion populations; studies without sensitivity/specificity data or with inconsistent data.",
+Eligibility & sample,ga_range_included,5–20 weeks gestation,Threatened abortion defined before 20 weeks; included studies ranged roughly 5–19+6 weeks
+Eligibility & sample,continents_distribution,Asia (1/13; 135 patients); Europe (4/13; 718 patients); Africa (8/13; 313 patients),
+Outcomes,outcome_primary_definition,Miscarriage after presentation with threatened abortion versus ongoing pregnancy/normal delivery,"Miscarriage confirmed clinically, by ultrasound, or histopathology during follow-up"
+Outcomes,followup_end_ga_weeks,,Follow-up deadlines varied (≤20 weeks vs >20 weeks) across studies; used as covariate in meta-regression
+Outcomes,outcomes_extracted_per_study,"Sensitivity, specificity, TP, FP, TN, FN, miscarriage diagnosis and follow-up deadlines",
+Biochemical markers,index_test,Serum CA125,Single biomarker as the prognostic index test
+Biochemical markers,cutoff_range_across_studies,21–125 IU/mL,Europe: 43–125 IU/mL; Africa: 21–80 IU/mL; Asia: 55 U/mL
+Biochemical markers,regional_cutoff_pattern,Higher optimal cut-offs in European studies; lower in African studies; Asia intermediate,
+Performance metrics,pooled_sensitivity,0.89,Sensitivity 89% (95% CI 0.83–0.93)
+Performance metrics,pooled_sensitivity_95ci,0.83–0.93,
+Performance metrics,pooled_specificity,0.91,Specificity 91% (95% CI 0.84–0.95)
+Performance metrics,pooled_specificity_95ci,0.84–0.95,
+Performance metrics,pooled_plr,10.2,Positive likelihood ratio (95% CI 5.4–19.3)
+Performance metrics,pooled_plr_95ci,5.4–19.3,
+Performance metrics,pooled_nlr,0.13,Negative likelihood ratio (95% CI 0.08–0.19)
+Performance metrics,pooled_nlr_95ci,0.08–0.19,
+Performance metrics,pooled_dor,82,Diagnostic odds ratio (95% CI 31–212)
+Performance metrics,pooled_dor_95ci,31–212,
+Performance metrics,pooled_auc_sroc,0.95,AUC of SROC (95% CI 0.92–0.96)
+Performance metrics,pooled_auc_95ci,0.92–0.96,
+Performance metrics,threshold_effect_present,No,"Spearman correlation between log(SEN) and log(1-SPE) = -0.588, P = 0.044 (no threshold effect)"
+Performance metrics,heterogeneity_sensitivity_i2,56.43,"χ² = 27.54, P = 0.01; random-effects model used"
+Performance metrics,heterogeneity_specificity_i2,81.82,"χ² = 66.00, P = 0.00; high heterogeneity"
+Performance metrics,meta_regression_covariates,Follow-up deadline (≤20 vs >20 weeks); sample size (≤100 vs >100); study population (Africa vs other continents),
+Performance metrics,meta_regression_findings,Sample size and study population significantly explained heterogeneity; follow-up deadline did not (P = 0.11),
+Performance metrics,publication_bias_assessment,No significant publication bias,Deek’s funnel plot P = 0.81 (symmetrical)
+Risk of bias,risk_of_bias_tool,QUAPAS,Adaptation of QUADAS-2 for prognostic accuracy
+Risk of bias,risk_of_bias_domains,Participants; index test; outcome; flow and timing; analysis,
+Risk of bias,common_risk_of_bias_issues,Participant selection bias; population imbalance; variation in assay methods and management practices,
+Risk of bias,grade_sensitivity,Moderate,Sensitivity downgraded due to participant bias and moderate heterogeneity
+Risk of bias,grade_specificity,Low,Downgraded for risk of bias and substantial heterogeneity
+Risk of bias,grade_plr,Low,"Downgraded for risk of bias, wide CI, and indirectness"
+Risk of bias,grade_nlr,Low,Downgraded for risk of bias and imprecision
+Risk of bias,grade_dor,Low,Downgraded for risk of bias and inconsistency (very wide CI)
+Risk of bias,grade_auc,Low,Downgraded for risk of bias and indirectness
+Study identifiers,study_id,Ku_2015,Internal ID constructed as FirstAuthor_Year
+Study identifiers,first_author,Ku,Chee Wai Ku
+Study identifiers,publication_year,2015,
+Study identifiers,journal,Gynecological Endocrinology,
+Study identifiers,doi,10.3109/09513590.2015.1031103,
+Study identifiers,country,Singapore,Tertiary women’s hospital emergency unit in Singapore
+Study identifiers,setting,Emergency unit of tertiary women’s hospital,Women presenting with threatened miscarriage
+Study identifiers,study_design,Prospective cohort study,
+Study identifiers,recruitment_period,,Not reported in the accessible text
+Study identifiers,funding_source,Not reported,Declaration of interest notes no conflicts; funding not specified
+Study identifiers,registration_id,,Study registration not reported
+Eligibility & sample,sample_size_total,119,Prospective cohort of 119 women with threatened miscarriage
+Eligibility & sample,n_tm,119,All participants had threatened miscarriage at 6–10 weeks
+Eligibility & sample,n_miscarriage,30,30/119 (25.2%) had spontaneous miscarriage
+Eligibility & sample,n_ongoing,89,119 - 30 = 89 ongoing pregnancies
+Eligibility & sample,inclusion_criteria,Women presenting with threatened miscarriage between 6 and 10 weeks of gestation at a tertiary women’s hospital emergency unit; viable intrauterine pregnancy at presentation.,Detailed criteria not fully visible in web snapshot/PDF capture
+Eligibility & sample,exclusion_criteria,,Not clearly visible in captured text
+Eligibility & sample,ga_range_included,6–10 weeks,Gestation weeks 6 to 10 at presentation
+Presentation,bleeding_required,Yes,Threatened miscarriage (vaginal bleeding with viable pregnancy)
+Presentation,ga_at_presentation_range_weeks,6–10,As specified in abstract
+Presentation,bleeding_severity,,Severity categories not visible in captured text
+Presentation,pain_recorded,,Not clearly reported in accessible text
+Biochemical markers,progesterone_used,Yes,Serum progesterone as primary biomarker
+Biochemical markers,pibf_used,Yes,Progesterone-induced blocking factor (PIBF) evaluated alongside progesterone
+Biochemical markers,progesterone_or_per_unit,0.91,OR per unit increase in serum progesterone (95% CI 0.88–0.94) associated with lower miscarriage risk
+Biochemical markers,progesterone_or_95ci,0.88–0.94,
+Biochemical markers,pibf_or_per_unit,0.99,OR per unit increase in PIBF (95% CI 0.98–0.99) associated with lower miscarriage risk
+Biochemical markers,pibf_or_95ci,0.98–0.99,
+Biochemical markers,progesterone_mean_levels,,Exact mean±SD progesterone levels by outcome group not visible in captured text
+Biochemical markers,pibf_mean_levels,,Exact mean±SD PIBF levels not visible in captured text
+Prediction model details,model_name,Ku_2015_risk_model,Label assigned for extraction purposes
+Prediction model details,model_type,Logistic regression,Predictive models for probability of spontaneous miscarriage
+Prediction model details,model_purpose,Multivariable clinical+biochemical model,To calculate probability of spontaneous miscarriage in TM
+Prediction model details,predictors_in_model,Serum progesterone; maternal BMI; fetal heart rate,As described in abstract: progesterone together with maternal BMI and fetal heart rate
+Prediction model details,feature_selection_method,,Specific selection strategy not visible in captured text
+Prediction model details,handling_missing_data,,Not reported in accessible text
+Prediction model details,internal_validation_method,,Any internal validation (bootstrapping/cross-validation) not visible in the captured pages
+Prediction model details,external_validation,No,Single-centre derivation cohort only; no external validation reported in abstract
+Prediction model details,model_presentation,Probability model described; details likely in full text,Abstract mentions proposed models; full regression equation not visible
+Outcomes,outcome_primary_definition,Completed spontaneous miscarriage after presentation with threatened miscarriage,Spontaneous miscarriage vs ongoing pregnancy
+Outcomes,followup_end_ga_weeks,,Exact follow-up endpoint not clearly visible in captured text
+Performance metrics,auc_roc,,"If AUC reported, it is not visible in captured web/PDF snapshot"
+Performance metrics,sensitivity_main_cutoff,,Sensitivity/specificity at chosen cut-offs not visible in current text
+Performance metrics,specificity_main_cutoff,,
+Study identifiers,study_id,Ku_2025,Internal ID constructed as FirstAuthor_Year
+Study identifiers,first_author,Ku,Chee Wai Ku
+Study identifiers,publication_year,2025,
+Study identifiers,journal,Frontiers in Medicine,
+Study identifiers,doi,10.3389/fmed.2025.1669594,
+Study identifiers,country,Singapore,"KK Women’s and Children’s Hospital, Singapore"
+Study identifiers,setting,Urgent O&G Center (UOGC) of KK Women’s and Children’s Hospital,Single-center tertiary women’s hospital
+Study identifiers,study_design,Prospective cohort study,
+Study identifiers,recruitment_period,6 October 2017–20 May 2023,
+Study identifiers,strobe_used,Yes,Followed STROBE reporting guideline
+Study identifiers,ethics_approval,SingHealth CIRB 2017/2638,
+Study identifiers,funding_source,"Lien Foundation Optimizing Maternal and Child Health Program; National Medical Research Council, Ministry of Health, Singapore",
+Study identifiers,registration_id,,Clinical trial registration not reported
+Eligibility & sample,sample_size_total,1080,Total analyzed women with threatened miscarriage
+Eligibility & sample,n_tm,1080,All had threatened miscarriage with viable IUP
+Eligibility & sample,n_miscarriage,187,Miscarriage by 16 weeks’ gestation
+Eligibility & sample,n_ongoing,893,Ongoing pregnancy at 16 weeks
+Eligibility & sample,miscarriage_rate_percent,17.3,187/1080
+Eligibility & sample,screened_total,1938,Women screened at UOGC
+Eligibility & sample,excluded_n,584,Met one or more exclusion criteria at screening
+Eligibility & sample,lost_to_followup_n,246,Lost to follow-up before 16 weeks
+Eligibility & sample,unknown_fetal_pole_status_n,12,
+Eligibility & sample,not_in_ga_range_n,13,GA outside 5–12 weeks by ultrasound
+Eligibility & sample,inclusion_criteria,Women presenting with threatened miscarriage at 5–12 weeks’ gestation (per vaginal bleeding with intrauterine gestational sac and fetal pole) with single confirmed intrauterine pregnancy dated via transvaginal ultrasound.,
+Eligibility & sample,exclusion_criteria,Received progestogens during current pregnancy; multiple gestations; IVF pregnancies; incomplete or missed miscarriage (CRL ≥7 mm without cardiac activity); pregnancy of unknown location; ectopic pregnancy; termination of pregnancy; no fetal pole present.,
+Eligibility & sample,ga_range_included,5–12 weeks,Gestation by ultrasound at presentation
+Baseline maternal,mean_maternal_age_all,31.0,"Mean age (years) for all, SD 4.44"
+Baseline maternal,sd_maternal_age_all,4.44,
+Baseline maternal,mean_maternal_age_ongoing,30.8,"Ongoing pregnancy group, SD 4.26"
+Baseline maternal,sd_maternal_age_ongoing,4.26,
+Baseline maternal,mean_maternal_age_miscarriage,31.7,"Miscarriage group, SD 5.17"
+Baseline maternal,sd_maternal_age_miscarriage,5.17,
+Baseline maternal,ethnicity_chinese_n,544,Chinese overall n (50.4%)
+Baseline maternal,ethnicity_chinese_ongoing_n,455,
+Baseline maternal,ethnicity_chinese_miscarriage_n,89,
+Baseline maternal,ethnicity_malay_n,263,24.4% overall
+Baseline maternal,ethnicity_malay_ongoing_n,217,
+Baseline maternal,ethnicity_malay_miscarriage_n,46,
+Baseline maternal,ethnicity_indian_n,136,12.6% overall
+Baseline maternal,ethnicity_indian_ongoing_n,110,
+Baseline maternal,ethnicity_indian_miscarriage_n,26,
+Baseline maternal,ethnicity_others_n,136,12.6% overall; counts appear duplicated in table for Others
+Baseline maternal,ethnicity_others_ongoing_n,110,As reported in table; potential typographical duplication
+Baseline maternal,ethnicity_others_miscarriage_n,26,
+Baseline maternal,bmi_underweight_n,52,"BMI <18.5 kg/m², 5.5% overall"
+Baseline maternal,bmi_normal_n,498,"18.5–24.9 kg/m², 52.3% overall"
+Baseline maternal,bmi_overweight_n,250,"25.0–29.9 kg/m², 26.3% overall"
+Baseline maternal,bmi_obese_n,152,"≥30 kg/m², 16.0% overall"
+Baseline maternal,prior_miscarriages_1_n,192,81.4% with 1 prior miscarriage among those with any prior miscarriages (row subtotal)
+Baseline maternal,prior_miscarriages_ge2_n,44,18.6% with ≥2 prior miscarriages
+Presentation,nausea_no_n,591,66.6% overall without nausea
+Presentation,nausea_yes_n,296,33.4% overall with nausea
+Presentation,nausea_no_ongoing_n,480,64.8%
+Presentation,nausea_no_miscarriage_n,111,76.0%
+Presentation,pain_no_n,652,61.4% overall without pain
+Presentation,pain_yes_n,410,38.6% overall with pain
+Presentation,pbac_0_n,25,PBAC score 0 (2.4%)
+Presentation,pbac_1_n,867,81.6%
+Presentation,pbac_2_n,24,2.3%
+Presentation,pbac_3_n,6,0.6%
+Presentation,smoker_no_n,177,93.2% of those with smoking data
+Presentation,smoker_yes_n,13,6.8%; smoking data missing in n=890
+Ultrasound predictors,ga_ultrasound_mean_all,7.28,"Mean GA by US (weeks), SD 1.71"
+Ultrasound predictors,ga_ultrasound_sd_all,1.71,
+Ultrasound predictors,ga_ultrasound_mean_ongoing,7.51,SD 1.77
+Ultrasound predictors,ga_ultrasound_sd_ongoing,1.77,
+Ultrasound predictors,ga_ultrasound_mean_miscarriage,6.20,SD 0.77
+Ultrasound predictors,ga_ultrasound_sd_miscarriage,0.77,
+Ultrasound predictors,fetal_heart_absent_n,151,14.0% overall
+Ultrasound predictors,fetal_heart_present_n,929,86.0% overall
+Ultrasound predictors,fetal_heart_absent_ongoing_n,62,6.9% in ongoing group
+Ultrasound predictors,fetal_heart_absent_miscarriage_n,89,47.6% in miscarriage group
+Ultrasound predictors,ultrasound_machine,Philips HS50,Transvaginal sonography device
+Ultrasound predictors,ga_assessment_method,CRL (crown–rump length),GA determined via CRL
+Ultrasound predictors,msd_measurement_method,Mean of three orthogonal planes (mm),
+Ultrasound predictors,pregnancy_failure_criterion_msd,MSD ≥25 mm with no fetal pole,Diagnostic criterion for early pregnancy failure
+Biochemical markers,progesterone_assay_type,"ARCHITECT progesterone kit (Abbott, Ireland)",Measured in KKH clinical laboratory
+Biochemical markers,progesterone_unit,nmol/L,
+Biochemical markers,low_progesterone_cutoff,35,<35 nmol/L defined as low/high-risk threshold
+Biochemical markers,low_progesterone_n,198,18.4% overall with serum progesterone <35 nmol/L
+Biochemical markers,low_progesterone_ongoing_n,61,6.9% of ongoing pregnancies
+Biochemical markers,low_progesterone_miscarriage_n,137,73.3% of miscarriages
+Biochemical markers,progesterone_treatment_given_n,257,23.8% overall received progesterone at UOGC
+Biochemical markers,progesterone_treatment_ongoing_n,121,13.5% ongoing
+Biochemical markers,progesterone_treatment_miscarriage_n,136,72.7% miscarriage group
+Biochemical markers,sample_processing,"Maternal blood in plain tubes; centrifuged 10 min at 3,000 g within 2 h of collection",
+Prediction model details,model1_description,Clinical + biochemical + radiological factors,"Maternal age, absence of nausea, number of miscarriages, low progesterone, GA, absence of fetal heart"
+Prediction model details,model1_auroc,0.90,95% CI 0.87–0.93
+Prediction model details,model1_aic,496.1,
+Prediction model details,model2_description,"Reduced model (clinical + biochemical + radiological): maternal age, low progesterone, GA, absence of fetal heart",
+Prediction model details,model2_auroc,0.90,95% CI 0.87–0.93
+Prediction model details,model2_aic,495.2,
+Prediction model details,model3_description,Clinical + biochemical (no ultrasound),
+Prediction model details,model3_auroc,0.85,95% CI 0.82–0.89
+Prediction model details,model3_aic,562.8,
+Prediction model details,model4_description,Clinical + radiological (no progesterone),
+Prediction model details,model4_auroc,0.80,95% CI 0.77–0.84
+Prediction model details,model4_aic,706.0,
+Prediction model details,model5_description,Clinical factors only,
+Prediction model details,model5_auroc,0.57,95% CI 0.53–0.62
+Prediction model details,model5_aic,887.5,
+Prediction model details,model1_or_maternal_age,1.05,aOR (95% CI 1.00–1.11) per year
+Prediction model details,model1_or_low_progesterone,26.3,aOR (95% CI 16.6–41.6) for progesterone <35 nmol/L
+Prediction model details,model1_or_ga,0.57,aOR (95% CI 0.45–0.73) per week
+Prediction model details,model1_or_absent_fetal_heart,3.91,aOR (95% CI 2.28–6.71)
+Prediction model details,model2_or_maternal_age,1.05,aOR (95% CI 1.00–1.11)
+Prediction model details,model2_or_low_progesterone,26.3,aOR (95% CI 16.6–41.5)
+Prediction model details,model2_or_ga,0.57,aOR (95% CI 0.45–0.73)
+Prediction model details,model2_or_absent_fetal_heart,4.05,aOR (95% CI 2.37–6.92)
+Prediction model details,risk_score_equation,Score = 2*(age ≥40 years) + 3*(progesterone <35 nmol/L) + 1*(GA <6.36 weeks) + 2*(absence of fetal heart),Total scores 0–8
+Prediction model details,risk_score_cutoff_ga_weeks,6.36,Cut-off for GA from ROC analysis
+Prediction model details,risk_score_or_age_ge40,5.11,"aOR (95% CI 1.8–14.48), score 2"
+Prediction model details,risk_score_or_prog_lt35,28.42,"aOR (95% CI 17.98–44.91), score 3"
+Prediction model details,risk_score_or_ga_lt6_36,2.86,"aOR (95% CI 1.77–4.64), score 1"
+Prediction model details,risk_score_or_no_fetal_heart,4.53,"aOR (95% CI 2.62–7.86), score 2"
+Prediction model details,risk_score_low_group_range,0–2,Miscarriage 4.7% (38/811)
+Prediction model details,risk_score_medium_group_range,3–5,Miscarriage 39.6% (74/187)
+Prediction model details,risk_score_high_group_range,6–8,Miscarriage 97.4% (75/77)
+Performance metrics,risk_score_auroc,0.82,AUROC for risk-score model
+Performance metrics,risk_score_sensitivity_cutoff2,0.80,At optimal cut-off score 2
+Performance metrics,risk_score_specificity_cutoff2,0.84,
+Performance metrics,risk_score_ppv_cutoff2,0.51,
+Performance metrics,risk_score_npv_cutoff2,0.95,
+Performance metrics,risk_score_cv_auroc_mean,0.89,Average AUROC from 10-fold cross-validation
+Performance metrics,risk_score_cv_auroc_95ci,0.85–0.92,"From 2,000 bootstrap replications"
+Risk of bias,multiple_imputation_used,Yes,Chained equations with fully conditional specification
+Risk of bias,firth_correction_used,Yes,Used in logistic regression to address separation
+Risk of bias,missing_data_fraction,<0.05,Less than 0.05% missing in final model (5/1080)
+Risk of bias,software_used,"SAS 9.4; Stata 18; R (mice, pROC)",
+Study identifiers,study_id,Lek_2017,Internal ID constructed as FirstAuthor_Year
+Study identifiers,first_author,Lek,Sze Min Lek
+Study identifiers,publication_year,2017,
+Study identifiers,journal,BMC Pregnancy and Childbirth,
+Study identifiers,doi,10.1186/s12884-017-1261-4,
+Study identifiers,country,Singapore,"KK Women’s and Children’s Hospital, Singapore"
+Study identifiers,setting,24-h Women’s Clinic at KK Women’s and Children’s Hospital (tertiary hospital emergency unit for women),
+Study identifiers,study_design,Prospective cohort study (validation cohort with comparison to prior pilot cohort),
+Study identifiers,recruitment_period,September 2013–June 2015,
+Study identifiers,funding_source,SingHealth Foundation Research Grant Call,
+Study identifiers,ethics_approval,SingHealth CIRB 2013/320/D,
+Study identifiers,registration_id,,Trial registration not reported
+Eligibility & sample,sample_size_recruited_validation,360,Validation cohort recruited 360 women
+Eligibility & sample,lost_to_followup_n,11,Lost to follow-up before 16 weeks
+Eligibility & sample,withdrawn_termination_n,3,Withdrew due to induced termination of pregnancy
+Eligibility & sample,sample_size_total,346,Validation cohort with outcome data analyzed
+Eligibility & sample,n_tm,346,All had threatened miscarriage at 6–10 weeks
+Eligibility & sample,n_miscarriage,70,20.2% experienced spontaneous miscarriage prior to week 16 in validation cohort
+Eligibility & sample,n_ongoing,276,Ongoing pregnancy at 16 weeks (validation cohort)
+Eligibility & sample,pilot_sample_size_total,119,Pilot cohort described in earlier Ku et al. study
+Eligibility & sample,pilot_n_miscarriage,30,25.2% miscarried in pilot cohort
+Eligibility & sample,pilot_n_ongoing,89,Ongoing in pilot cohort
+Eligibility & sample,inclusion_criteria,Pregnant women aged ≥21 years with single intrauterine pregnancy between gestation weeks 6–10 (confirmed and dated by ultrasonography) presenting with pregnancy-related per vagina bleeding at the KKH 24-h Women’s Clinic.,
+Eligibility & sample,exclusion_criteria,"Women with previous episodes of per vagina bleeding or treated with progesterone for previous per vagina bleeding in the current pregnancy; women diagnosed with inevitable miscarriage, missed miscarriage, blighted ovum, or planned termination of pregnancy.",
+Eligibility & sample,ga_range_included,6–10 weeks,Gestational age at recruitment by ultrasound
+Biochemical markers,progesterone_assay_type,"ARCHITECT progesterone kit (Abbott, Ireland)",Measured in KKH clinical laboratory
+Biochemical markers,progesterone_unit,nmol/L,
+Biochemical markers,sample_handling,Maternal blood collected in plain tubes; centrifuged 10 min at 3000 g within 2 h of collection.,
+Biochemical markers,progesterone_mean_ongoing_pilot,59.8,"Mean serum progesterone (nmol/L) in pilot cohort, ongoing pregnancy at 16 weeks; SD 23.5"
+Biochemical markers,progesterone_sd_ongoing_pilot,23.5,
+Biochemical markers,progesterone_mean_ongoing_validation,60.3,"Mean serum progesterone (nmol/L) in validation cohort, ongoing pregnancy; SD 22.7"
+Biochemical markers,progesterone_sd_ongoing_validation,22.7,
+Biochemical markers,progesterone_mean_miscarriage_pilot,26.4,"Mean serum progesterone (nmol/L) in pilot cohort, miscarriage; SD 17.1"
+Biochemical markers,progesterone_sd_miscarriage_pilot,17.1,
+Biochemical markers,progesterone_mean_miscarriage_validation,31.4,"Mean serum progesterone (nmol/L) in validation cohort, miscarriage; SD 20.1"
+Biochemical markers,progesterone_sd_miscarriage_validation,20.1,
+Baseline maternal,mean_maternal_age_ongoing_validation,30.3,"Mean maternal age (years) in validation cohort, ongoing pregnancies; SD 4.10"
+Baseline maternal,sd_maternal_age_ongoing_validation,4.10,
+Baseline maternal,mean_maternal_age_miscarriage_validation,31.6,"Mean maternal age (years) in validation cohort, miscarriages; SD 5.22"
+Baseline maternal,sd_maternal_age_miscarriage_validation,5.22,
+Baseline maternal,ga_at_recruitment_mean_ongoing_validation,7.48,"Gestational age at recruitment (weeks) in validation cohort, ongoing pregnancies; SD 1.47"
+Baseline maternal,ga_at_recruitment_sd_ongoing_validation,1.47,
+Baseline maternal,ga_at_recruitment_mean_miscarriage_validation,6.63,"Gestational age at recruitment (weeks) in validation cohort, miscarriages; SD 1.06"
+Baseline maternal,ga_at_recruitment_sd_miscarriage_validation,1.06,
+Baseline maternal,previous_miscarriage_ongoing_validation_percent,24.0,"Previous miscarriage (%) in validation cohort, ongoing pregnancies"
+Baseline maternal,previous_miscarriage_miscarriage_validation_percent,22.9,"Previous miscarriage (%) in validation cohort, miscarriage group"
+Baseline maternal,bmi_mean_ongoing_validation,22.9,Mean BMI (kg/m²) ongoing pregnancies; SD 4.29
+Baseline maternal,bmi_sd_ongoing_validation,4.29,
+Baseline maternal,bmi_mean_miscarriage_validation,23.6,Mean BMI (kg/m²) miscarriages; SD 4.81
+Baseline maternal,bmi_sd_miscarriage_validation,4.81,
+Ultrasound predictors,fetal_pole_present_ongoing_validation_percent,100,"Presence of fetal pole (%) in validation cohort, ongoing pregnancies"
+Ultrasound predictors,fetal_pole_present_miscarriage_validation_percent,100,"Presence of fetal pole (%) in validation cohort, miscarriages"
+Ultrasound predictors,fetal_heart_present_ongoing_validation_percent,95.6,"Presence of fetal heart (%) in validation cohort, ongoing pregnancies"
+Ultrasound predictors,fetal_heart_present_miscarriage_validation_percent,70.0,"Presence of fetal heart (%) in validation cohort, miscarriages"
+Outcomes,outcome_primary_definition,Spontaneous miscarriage by the 16th week of gestation vs ongoing pregnancy at 16 weeks,"Miscarriage defined by uterine evacuation after inevitable or incomplete miscarriage, or complete miscarriage with an empty uterus"
+Outcomes,followup_end_ga_weeks,16,All participants contacted at 16 weeks to verify pregnancy status
+Prediction model details,logit_pilot_intercept_b0,2.8439,"Intercept for pilot cohort logistic regression (outcome = miscarriage, predictor = progesterone)"
+Prediction model details,logit_pilot_progesterone_b1,-0.0971,Coefficient for progesterone (nmol/L) in pilot cohort
+Prediction model details,logit_validation_intercept_b0,2.1063,Intercept for validation cohort logistic regression
+Prediction model details,logit_validation_progesterone_b1,-0.0782,Coefficient for progesterone (nmol/L) in validation cohort
+Performance metrics,auc_pilot,0.89,AUC (95% CI 0.81–0.97) for progesterone in pilot cohort
+Performance metrics,auc_pilot_95ci,0.81–0.97,
+Performance metrics,auc_validation,0.83,AUC (95% CI 0.77–0.89) for progesterone in validation cohort
+Performance metrics,auc_validation_95ci,0.77–0.89,
+Performance metrics,auc_difference_pilot_validation,0.06,Difference in AUC (pilot - validation); 95% CI -0.04–0.15; p = 0.267
+Biochemical markers,progesterone_cutoff_main,35,nmol/L; threshold for high risk of miscarriage before 16 weeks
+Performance metrics,pilot_sensitivity_cutoff35,0.767,Sensitivity 76.7% (95% CI 0.577–0.901); 23/30
+Performance metrics,pilot_specificity_cutoff35,0.888,Specificity 88.8% (95% CI 0.803–0.945); 79/89
+Performance metrics,pilot_ppv_cutoff35,0.697,PPV 69.7% (95% CI 0.513–0.844); 23/33
+Performance metrics,pilot_npv_cutoff35,0.919,NPV 91.9% (95% CI 0.839–0.967); 79/86
+Performance metrics,pilot_lr_positive,6.82,LR+ at <35 nmol/L
+Performance metrics,pilot_lr_negative,0.26,LR- at <35 nmol/L
+Performance metrics,validation_sensitivity_cutoff35,0.657,Sensitivity 65.7% (95% CI 0.534–0.767); 46/70
+Performance metrics,validation_specificity_cutoff35,0.920,Specificity 92.0% (95% CI 0.881–0.949); 253/275 (text also refers to 254 TN in accuracy section)
+Performance metrics,validation_ppv_cutoff35,0.677,PPV 67.7% (95% CI 0.552–0.785); 46/68
+Performance metrics,validation_npv_cutoff35,0.913,NPV 91.3% (95% CI 0.874–0.944); 253/277
+Performance metrics,validation_lr_positive,8.21,LR+ at <35 nmol/L
+Performance metrics,validation_lr_negative,0.37,LR- at <35 nmol/L
+Performance metrics,validation_accuracy_cutoff35,0.87,Accuracy 300/346 (95% CI 0.83–0.90)
+Performance metrics,validation_tp_cutoff35,46,True positives (<35 nmol/L and miscarried)
+Performance metrics,validation_tn_cutoff35,254,True negatives (≥35 nmol/L and ongoing); slight inconsistency with 253/275 in Table 2
+Performance metrics,validation_fp_cutoff35,24,False positives (<35 nmol/L but ongoing)
+Performance metrics,validation_fn_cutoff35,22,False negatives (≥35 nmol/L but miscarried); counts yield 68 miscarriages vs 70 stated; minor internal discrepancy
+Study identifiers,study_id,Mishoe_2020,Internal ID constructed as FirstAuthor_Year; Systematic Review Snapshot based on Pillai RN et al. 2018 meta-analysis
+Study identifiers,first_author,Mishoe,Jonathan M. Mishoe
+Study identifiers,publication_year,2020,
+Study identifiers,journal,Annals of Emergency Medicine,
+Study identifiers,doi,10.1016/j.annemergmed.2019.02.014,From CrossRef link in PDF
+Study identifiers,country,Multinational,Systematic review/meta-analysis of studies from multiple countries
+Study identifiers,setting,Emergency departments and early pregnancy assessment units,Women with early pregnancy and threatened abortion
+Study identifiers,study_design,Systematic review snapshot summarising diagnostic accuracy meta-analysis,"Snapshot of Pillai RN et al., Eur J Obstet Gynecol Reprod Biol. 2018;220:122–131"
+Study identifiers,primary_source_citation,"Pillai RN, Konje JC, Richardson M, et al. Prediction of miscarriage in women with viable intrauterine pregnancy—a systematic review and diagnostic accuracy meta-analysis. Eur J Obstet Gynecol Reprod Biol. 2018;220:122–131.",
+Eligibility & sample,number_of_included_studies_qualitative,27,27 studies met inclusion criteria for qualitative analysis
+Eligibility & sample,number_of_included_studies_quantitative,18,18 studies included in quantitative analysis
+Eligibility & sample,patient_population_definition,"Pregnant women with viable intrauterine pregnancy between 6 weeks and 15 weeks + 6 days of gestation, with or without vaginal bleeding.",
+Eligibility & sample,inclusion_criteria,"Prospective cohort studies using combinations or individual ultrasonographic markers to predict miscarriage in women with a viable intrauterine pregnancy and gestational age 6 to 15+6 weeks, with or without vaginal bleeding.",
+Eligibility & sample,exclusion_criteria,Studies using Doppler criteria alone; studies including women with uterine malformations or medical conditions contributing to miscarriage; studies without clear differentiation between viable pregnancy and miscarriage at baseline; unspecified exclusion criteria; variable sonographer expertise.,Summarised from risk-of-bias discussion
+Ultrasound predictors,index_tests_evaluated,Fetal pulse rate (bradycardia); crown-rump length; intrauterine hematoma; difference between mean gestational sac diameter and crown-rump length; abnormal yolk sac.,
+Ultrasound predictors,fetal_bradycardia_definition,Fetal pulse rate ≤ 110 beats/min,Identified as most accurate cut-off to predict miscarriage
+Ultrasound predictors,ongoing_pregnancy_protective_fhr_7w,>134,Fetal pulse rate >134 beats/min at 7 weeks predictive of ongoing pregnancy in two studies
+Ultrasound predictors,ongoing_pregnancy_protective_fhr_8w,>158,Fetal pulse rate >158 beats/min at 8 weeks predictive of ongoing pregnancy in two studies
+Outcomes,outcome_primary_definition,Progression to miscarriage after initial ultrasound with viable intrauterine pregnancy.,
+Performance metrics,fhr_bradycardia_all_studies_n,10,Number of studies reporting fetal bradycardia in asymptomatic and vaginal bleeding populations
+Performance metrics,fhr_bradycardia_all_patients_n,1762,Total number of women in these 10 studies
+Performance metrics,fhr_bradycardia_all_sensitivity,68.41,Sensitivity % (95% CI 43.62–85.84) for miscarriage when fetal pulse rate ≤ 110 bpm in asymptomatic and VB combined
+Performance metrics,fhr_bradycardia_all_sensitivity_95ci,43.62–85.84,
+Performance metrics,fhr_bradycardia_all_specificity,97.84,Specificity % (95% CI 94.50–99.17)
+Performance metrics,fhr_bradycardia_all_specificity_95ci,94.50–99.17,
+Performance metrics,fhr_bradycardia_all_plr,31.73,Positive likelihood ratio (95% CI 12.78–78.75)
+Performance metrics,fhr_bradycardia_all_plr_95ci,12.78–78.75,
+Performance metrics,fhr_bradycardia_all_nlr,0.32,Negative likelihood ratio (95% CI 0.16–0.65)
+Performance metrics,fhr_bradycardia_all_nlr_95ci,0.16–0.65,
+Performance metrics,fhr_bradycardia_vbonly_studies_n,5,Studies including only women with vaginal bleeding
+Performance metrics,fhr_bradycardia_vbonly_patients_n,771,Total women in these 5 studies
+Performance metrics,fhr_bradycardia_vbonly_sensitivity,84.18,Sensitivity % (95% CI 42.02–97.50)
+Performance metrics,fhr_bradycardia_vbonly_sensitivity_95ci,42.02–97.50,
+Performance metrics,fhr_bradycardia_vbonly_specificity,95.68,Specificity % (95% CI 87.76–98.56)
+Performance metrics,fhr_bradycardia_vbonly_specificity_95ci,87.76–98.56,
+Performance metrics,fhr_bradycardia_vbonly_plr,19.51,Positive likelihood ratio (95% CI 5.44–69.84)
+Performance metrics,fhr_bradycardia_vbonly_plr_95ci,5.44–69.84,
+Performance metrics,fhr_bradycardia_vbonly_nlr,0.16,Negative likelihood ratio (95% CI 0.03–0.91)
+Performance metrics,fhr_bradycardia_vbonly_nlr_95ci,0.03–0.91,
+Performance metrics,crl_studies_n,5,"Number of studies analysing CRL (1,136 women)"
+Performance metrics,crl_patients_n,1136,
+Performance metrics,crl_sensitivity,59.81,Sensitivity % (95% CI 48.78–69.93)
+Performance metrics,crl_sensitivity_95ci,48.78–69.93,
+Performance metrics,crl_specificity,55.68,Specificity % (95% CI 39.95–70.35)
+Performance metrics,crl_specificity_95ci,39.95–70.35,
+Performance metrics,crl_plr,1.34,Positive likelihood ratio (95% CI 0.91–2.00)
+Performance metrics,crl_plr_95ci,0.91–2.00,
+Performance metrics,crl_nlr,0.72,Negative likelihood ratio (95% CI 0.49–1.06)
+Performance metrics,crl_nlr_95ci,0.49–1.06,
+Performance metrics,iuh_sensitivity_range,17–92,Sensitivity % range for intrauterine hematoma in women with vaginal bleeding and confirmed fetal viability
+Performance metrics,iuh_specificity_range,17–83,Specificity % range
+Performance metrics,msd_crl_discrepancy_studies_n,2,Two studies with 349 women
+Performance metrics,msd_crl_discrepancy_patients_n,349,
+Performance metrics,msd_crl_sensitivity_range,39–96,Sensitivity % range for difference in mean gestational sac diameter and CRL
+Performance metrics,msd_crl_specificity_range,73–88,Specificity % range
+Performance metrics,abnormal_yolk_sac_studies_n,3,Three studies with 605 asymptomatic women
+Performance metrics,abnormal_yolk_sac_patients_n,605,
+Performance metrics,abnormal_yolk_sac_sensitivity_range,17–69,Sensitivity % range
+Performance metrics,abnormal_yolk_sac_specificity_range,79–99,Specificity % range
+Risk of bias,risk_of_bias_tool,QUADAS-2,Quality Assessment of Diagnostic Accuracy Studies–2 used for methodological assessment
+Risk of bias,common_sources_of_bias,Inclusion of women with uterine malformations or medical conditions contributing to miscarriage; unclear exclusion criteria; lack of clear baseline distinction between viable pregnancy and miscarriage; variable sonographer expertise.,
+Study identifiers,study_id,Pillai_2016,Internal ID constructed as FirstAuthor_Year
+Study identifiers,first_author,Pillai,Rekha N. Pillai
+Study identifiers,publication_year,2016,
+Study identifiers,journal,Human Reproduction Update,
+Study identifiers,article_title,Role of serum biomarkers in the prediction of outcome in women with threatened miscarriage: a systematic review and diagnostic accuracy meta-analysis,
+Study identifiers,doi,10.1093/humupd/dmv054,
+Study identifiers,country,Multinational,Systematic review/meta-analysis including studies from multiple countries
+Study identifiers,study_design,Systematic review and diagnostic accuracy meta-analysis of prospective cohort studies,
+Study identifiers,timeframe_of_search,Up to June 2015,"Medline (1946–June 2015), Embase (1980–June 2015), Cochrane Library, ClinicalTrials.gov, WHO ICTRP, LILAC, OpenGrey"
+Eligibility & sample,eligibility_study_design,Prospective studies evaluating serum biochemical markers to predict outcome in women with threatened miscarriage,
+Eligibility & sample,eligibility_ga_range_weeks,5–23,Gestational age window for inclusion
+Eligibility & sample,eligibility_tm_definition,"Vaginal bleeding with or without lower abdominal pain, closed internal os on cervical examination, and ultrasound-confirmed viable intrauterine pregnancy","Based on Saraswat et al. 2010 and NICE CG 154, 2012"
+Eligibility & sample,exclusion_criteria_overall,"Retrospective design, case reports/series, reviews; no 5–23 week window; infertility or recurrent miscarriage cohorts; pregnancy of unknown location; ovulation induction or exogenous hormones; treatments for prevention of miscarriage; non-English language without translation",
+Eligibility & sample,n_identified_initial_search,6820,6727 from electronic search + 93 from other sources
+Eligibility & sample,n_screened_fulltext,35,Manuscripts reviewed in detail
+Eligibility & sample,n_included_qualitative,19,Studies included in qualitative synthesis
+Eligibility & sample,n_included_quantitative,15,Studies included in diagnostic accuracy meta-analysis
+Eligibility & sample,n_total_women_meta,1263,Total women across 15 meta-analysed studies
+Biochemical markers,biomarkers_evaluated,"Serum hCG (intact and β-hCG), progesterone, estradiol, pregnancy-associated plasma protein A (PAPP-A), cancer antigen 125 (CA 125)","Plus single-study markers HPL, AFP, SP1, PZP, plasma renin activity/substrate, SHBG, inhibin A, activin A, follistatin, estriol"
+Biochemical markers,hcg_studies_n,8,Total hCG or β-hCG studies included in quantitative analysis
+Biochemical markers,hcg_total_women,584,
+Biochemical markers,progesterone_studies_n,6,Serum progesterone studies
+Biochemical markers,progesterone_total_women,481,
+Biochemical markers,estradiol_studies_n,4,
+Biochemical markers,estradiol_total_women,244,
+Biochemical markers,pappa_studies_n,3,
+Biochemical markers,pappa_total_women,236,
+Biochemical markers,ca125_studies_n,7,
+Biochemical markers,ca125_total_women,648,
+Outcomes,outcome_primary_definition,Prediction of subsequent miscarriage in women with threatened miscarriage and viable intrauterine pregnancy at baseline,"Miscarriage confirmed clinically, by ultrasound, or histopathology"
+Statistical methods,software_meta_analysis,Review Manager 5.3 (Cochrane),
+Statistical methods,meta_analysis_model,Hierarchical summary receiver operating characteristic (HSROC) modelling for biomarkers with ≥4 studies,"Rutter & Gatsonis HSROC, empirical Bayes estimates of study-specific sensitivity and specificity"
+Statistical methods,between_study_heterogeneity,"Considerable heterogeneity, reflected in wide prediction regions on HSROC plots, especially for progesterone and estradiol",
+Performance metrics,hcg_summary_sensitivity_percent,44,Sensitivity % (95% CI 17–75)
+Performance metrics,hcg_summary_sensitivity_95ci,17–75,
+Performance metrics,hcg_summary_specificity_percent,86,Specificity % (95% CI 80–91)
+Performance metrics,hcg_summary_specificity_95ci,80–91,
+Performance metrics,hcg_summary_plr,3.37,Positive likelihood ratio (95% CI 1.98–5.74)
+Performance metrics,hcg_summary_plr_95ci,1.98–5.74,
+Performance metrics,hcg_summary_nlr,0.63,Negative likelihood ratio (95% CI 0.36–1.11)
+Performance metrics,hcg_summary_nlr_95ci,0.36–1.11,
+Performance metrics,progesterone_summary_sensitivity_percent,30,Sensitivity % (95% CI 2–87)
+Performance metrics,progesterone_summary_sensitivity_95ci,2–87,
+Performance metrics,progesterone_summary_specificity_percent,86,Specificity % (95% CI 78–91)
+Performance metrics,progesterone_summary_specificity_95ci,78–91,
+Performance metrics,progesterone_summary_plr,2.24,Positive likelihood ratio (95% CI 0.32–15.80)
+Performance metrics,progesterone_summary_plr_95ci,0.32–15.80,
+Performance metrics,progesterone_summary_nlr,0.81,Negative likelihood ratio (95% CI 0.35–1.86)
+Performance metrics,progesterone_summary_nlr_95ci,0.35–1.86,
+Performance metrics,estradiol_summary_sensitivity_percent,45,Sensitivity % (95% CI 6–90)
+Performance metrics,estradiol_summary_sensitivity_95ci,6–90,
+Performance metrics,estradiol_summary_specificity_percent,87,Specificity % (95% CI 81–92)
+Performance metrics,estradiol_summary_specificity_95ci,81–92,
+Performance metrics,estradiol_summary_plr,3.72,Positive likelihood ratio (95% CI 1.01–13.71)
+Performance metrics,estradiol_summary_plr_95ci,1.01–13.71,
+Performance metrics,estradiol_summary_nlr,0.62,Negative likelihood ratio (95% CI 0.20–1.84)
+Performance metrics,estradiol_summary_nlr_95ci,0.20–1.84,
+Performance metrics,ca125_summary_sensitivity_percent,91,Sensitivity % (95% CI 83–94)
+Performance metrics,ca125_summary_sensitivity_95ci,83–94,
+Performance metrics,ca125_summary_specificity_percent,90,Specificity % (95% CI 79–93)
+Performance metrics,ca125_summary_specificity_95ci,79–93,
+Performance metrics,ca125_summary_plr,7.86,Positive likelihood ratio (95% CI 4.23–14.60)
+Performance metrics,ca125_summary_plr_95ci,4.23–14.60,
+Performance metrics,ca125_summary_nlr,0.10,Negative likelihood ratio (95% CI 0.05–0.20)
+Performance metrics,ca125_summary_nlr_95ci,0.05–0.20,
+Performance metrics,ca125_inverse_nlr,9.31,Inverse of negative likelihood ratio; 95% CI 5.0–17.1 (indicative value of test for identifying pregnancies likely to continue)
+Performance metrics,pappa_sensitivity_range_percent,25–64,Sensitivity % range across 3 studies
+Performance metrics,pappa_specificity_range_percent,88–94,Specificity % range across 3 studies
+Risk of bias,risk_of_bias_tool,QUADAS-2,"Four domains: patient selection, index test, reference standard, flow and timing"
+Risk of bias,common_bias_patient_selection,"Four studies did not specify exclusion criteria; some mixed populations (e.g. broader GA, other early pregnancy complications)",
+Risk of bias,common_bias_index_test,Most studies did not prespecify biomarker cut-off levels; cut-offs often selected post hoc,
+Risk of bias,common_bias_reference_standard,Outcome sometimes determined by telephone interview or case note review rather than standardized ultrasound/histology,
+Risk of bias,common_bias_flow_timing,Not always clear whether women were followed up to at least 23 weeks; potential for incomplete ascertainment of miscarriage,
+Study identifiers,study_id,Pillai_2018,Internal ID constructed as FirstAuthor_Year
+Study identifiers,first_author,Pillai,Rekha N. Pillai
+Study identifiers,publication_year,2018,
+Study identifiers,journal,European Journal of Obstetrics & Gynecology and Reproductive Biology,
+Study identifiers,article_title,Prediction of miscarriage in women with viable intrauterine pregnancy—A systematic review and diagnostic accuracy meta-analysis,
+Study identifiers,doi,10.1016/j.ejogrb.2017.10.024,
+Study identifiers,country,Multinational,Systematic review/meta-analysis of ultrasound-based prognostic markers
+Study identifiers,study_design,Systematic review and diagnostic accuracy meta-analysis of prospective cohort studies,
+Study identifiers,protocol_registration,PROSPERO CRD42016046470,
+Study identifiers,timeframe_of_search,Medline 1946–June 2017; Embase 1980–June 2017; CINAHL 1981–June 2017; Cochrane Library,
+Eligibility & sample,patient_population_definition,"Women with viable intrauterine pregnancy between 6 and 15+6 weeks’ gestation, with or without vaginal bleeding, undergoing ultrasound",
+Eligibility & sample,inclusion_criteria,Prospective cohort studies evaluating ultrasound and/or combination markers to predict miscarriage in women with viable intrauterine pregnancy within 6–15+6 weeks’ gestation.,
+Eligibility & sample,exclusion_criteria,Retrospective studies; studies without clear definition of viable intrauterine pregnancy at baseline; lack of separate data for viable pregnancies; non-ultrasound markers only; non-human or non-pregnancy studies.,Summarised from methods text
+Eligibility & sample,n_identified_initial_search,4094,Records identified through database searching
+Eligibility & sample,n_additional_records,46,Additional records identified through other sources
+Eligibility & sample,n_screened_fulltext,27,Studies assessed for eligibility (qualitative)
+Eligibility & sample,n_included_qualitative,27,Included in qualitative synthesis
+Eligibility & sample,n_included_quantitative,18,Included in quantitative meta-analysis
+Eligibility & sample,n_total_women_meta,5584,Total number of women in meta-analysed studies
+Ultrasound predictors,ultrasound_markers_evaluated,Fetal heart rate (bradycardia or tachycardia); crown–rump length; intrauterine hematoma; difference between mean gestational sac diameter and crown–rump length; yolk sac morphology and size.,
+Ultrasound predictors,fetal_bradycardia_definition,Fetal heart rate ≤ 110 beats/min,Identified as optimal cut-off based on plot of FHR cut-off versus log diagnostic odds ratio
+Ultrasound predictors,protective_fhr_7weeks,>134,Fetal heart rate >134 bpm at 7 weeks associated with ongoing pregnancy in two studies
+Ultrasound predictors,protective_fhr_8weeks,>158,Fetal heart rate >158 bpm at 8 weeks associated with ongoing pregnancy in two studies
+Outcomes,outcome_primary_definition,Progression to miscarriage after index ultrasound with viable intrauterine pregnancy,
+Performance metrics,fhr_bradycardia_all_studies_n,10,Studies included for fetal bradycardia across asymptomatic and VB populations
+Performance metrics,fhr_bradycardia_all_patients_n,1762,
+Performance metrics,fhr_bradycardia_all_sensitivity,68.41,Sensitivity % (95% CI 43.62–85.84)
+Performance metrics,fhr_bradycardia_all_sensitivity_95ci,43.62–85.84,
+Performance metrics,fhr_bradycardia_all_specificity,97.84,Specificity % (95% CI 94.50–99.17)
+Performance metrics,fhr_bradycardia_all_specificity_95ci,94.50–99.17,
+Performance metrics,fhr_bradycardia_all_plr,31.73,Positive likelihood ratio (95% CI 12.78–78.75)
+Performance metrics,fhr_bradycardia_all_plr_95ci,12.78–78.75,
+Performance metrics,fhr_bradycardia_all_nlr,0.32,Negative likelihood ratio (95% CI 0.16–0.65)
+Performance metrics,fhr_bradycardia_all_nlr_95ci,0.16–0.65,
+Performance metrics,fhr_bradycardia_vbonly_studies_n,5,Threatened miscarriage subgroup
+Performance metrics,fhr_bradycardia_vbonly_patients_n,771,
+Performance metrics,fhr_bradycardia_vbonly_sensitivity,84.18,Sensitivity % (95% CI 42.02–97.50)
+Performance metrics,fhr_bradycardia_vbonly_sensitivity_95ci,42.02–97.50,
+Performance metrics,fhr_bradycardia_vbonly_specificity,95.68,Specificity % (95% CI 87.76–98.56)
+Performance metrics,fhr_bradycardia_vbonly_specificity_95ci,87.76–98.56,
+Performance metrics,fhr_bradycardia_vbonly_plr,19.51,Positive likelihood ratio (95% CI 5.44–69.84)
+Performance metrics,fhr_bradycardia_vbonly_plr_95ci,5.44–69.84,
+Performance metrics,fhr_bradycardia_vbonly_nlr,0.16,Negative likelihood ratio (95% CI 0.03–0.91)
+Performance metrics,fhr_bradycardia_vbonly_nlr_95ci,0.03–0.91,
+Performance metrics,crl_studies_n,5,Number of CRL studies
+Performance metrics,crl_patients_n,1136,
+Performance metrics,crl_sensitivity,59.81,Sensitivity % (95% CI 48.78–69.93)
+Performance metrics,crl_sensitivity_95ci,48.78–69.93,
+Performance metrics,crl_specificity,55.68,Specificity % (95% CI 39.95–70.35)
+Performance metrics,crl_specificity_95ci,39.95–70.35,
+Performance metrics,crl_plr,1.34,Positive likelihood ratio (95% CI 0.91–2.00)
+Performance metrics,crl_plr_95ci,0.91–2.00,
+Performance metrics,crl_nlr,0.72,Negative likelihood ratio (95% CI 0.49–1.06)
+Performance metrics,crl_nlr_95ci,0.49–1.06,
+Performance metrics,iuh_sensitivity_range,17–92,Sensitivity % range for intrauterine hematoma
+Performance metrics,iuh_specificity_range,17–83,Specificity % range
+Performance metrics,msd_crl_discrepancy_studies_n,2,Difference between mean gestational sac diameter and CRL
+Performance metrics,msd_crl_discrepancy_patients_n,349,
+Performance metrics,msd_crl_sensitivity_range,39–96,Sensitivity % range
+Performance metrics,msd_crl_specificity_range,73–88,Specificity % range
+Performance metrics,abnormal_yolk_sac_studies_n,3,Ultrasound yolk sac morphology/size
+Performance metrics,abnormal_yolk_sac_patients_n,605,
+Performance metrics,abnormal_yolk_sac_sensitivity_range,17–69,Sensitivity % range
+Performance metrics,abnormal_yolk_sac_specificity_range,79–99,Specificity % range
+Risk of bias,risk_of_bias_tool,QUADAS-2,Used to assess methodological quality
+Risk of bias,common_sources_of_bias,Inclusion of women with uterine malformations or medical conditions contributing to miscarriage; unclear exclusion criteria; sonographer expertise not always reported; variable follow-up duration.,Summarised from risk-of-bias domain discussion
+Study identifiers,study_id,Sammut_2025,Internal ID constructed as FirstAuthor_Year
+Study identifiers,first_author,Sammut,Lara Sammut
+Study identifiers,publication_year,2025,
+Study identifiers,journal,Radiography,
+Study identifiers,article_title,Predicting first-trimester pregnancy outcome in threatened miscarriage: A comparison of a multivariate logistic regression and machine learning models,
+Study identifiers,doi,10.1016/j.radi.2025.103159,
+Study identifiers,country,Malta,"Single-centre study at Mater Dei Hospital, Malta"
+Study identifiers,institutions,"University of Malta; Mater Dei Hospital; University of the West of England, Bristol",
+Study identifiers,study_design,Prospective cohort study with multivariate logistic regression and random forest models,
+Study identifiers,study_period,January 2023 – June 2024,
+Eligibility & sample,tm_definition,First-trimester vaginal bleeding before 20 weeks with closed cervix and detectable fetal cardiac activity on ultrasound,
+Eligibility & sample,ga_range_weeks,5+0 to 12+6,Gestational age at recruitment
+Eligibility & sample,population,Women with viable singleton intrauterine pregnancies presenting with symptoms of threatened miscarriage,
+Eligibility & sample,inclusion_criteria,Viable singleton intrauterine pregnancy 5+0–12+6 weeks; symptoms of threatened miscarriage; consent to participate,
+Eligibility & sample,exclusion_criteria,Non-viable pregnancies; multiple gestations; ectopic and molar pregnancies,
+Eligibility & sample,n_total_recruited,118,Total TM cases recruited
+Eligibility & sample,n_live_birth,91,77% live birth
+Eligibility & sample,n_pregnancy_loss,27,23% pregnancy loss
+Eligibility & sample,age_group_counts,14–19 years: 3 (5%); 20–34 years: 46 (78%); 35–46 years: 10 (17%),
+Eligibility & sample,sample_size_rationale,"Minimum required to build predictive model with up to eight predictors, each correlated at ≥0.35 with outcome",Based on Bland 2009 and Machin 2018 sample size texts
+Predictors – ultrasound,us_predictors,"Fetal heart rate (FHR); mean gestational sac diameter (MGSD); crown-rump length (CRL); cervical length; mean amniotic sac diameter (MASD); trophoblast thickness (TT); yolk sac parameters (diameter, wall thickness, morphology); mean corpus luteum diameter and location; presence, size and location of intrauterine haematoma; uterine fibroids",
+Predictors – ultrasound,us_measurement_details,"All scans performed by the same practitioner and equipment; MASD, TT and yolk sac measurements based on previously published methodologies",
+Predictors – biochemical,bc_predictors,β-hCG; progesterone; placental growth factor (PlGF); soluble fms-like tyrosine kinase-1 (sFlt-1); sFlt-1:PlGF ratio,
+Predictors – biochemical,bc_assay_details,Blood samples via venipuncture; analysed using standard clinical assays in hospital laboratory,
+Predictors – clinical,clinical_predictors,Maternal age; BMI; bleeding volume (Pictorial Blood Assessment Chart); pain intensity; ethnicity; paternal age; educational attainment; employment status,
+Outcomes,primary_outcome,Pregnancy outcome (live birth vs pregnancy loss) followed to term,"Outcome ascertained from hospital records, supplemented by telephone follow-up"
+Correlation analysis,spearman_rho_progesterone,-0.47,Strongest negative correlation with pregnancy loss (P < 0.05)
+Correlation analysis,spearman_rho_mgsd,-0.43,P < 0.05
+Correlation analysis,spearman_rho_bhcg,-0.40,β-hCG x1000 IU/L; P < 0.05
+Correlation analysis,spearman_rho_fhr,-0.35,P < 0.05
+Correlation analysis,spearman_rho_crl,-0.31,P < 0.05
+Correlation analysis,spearman_rho_cervical_length,-0.26,P < 0.05
+Correlation analysis,spearman_rho_masd,-0.25,P < 0.05
+Correlation analysis,spearman_rho_tt,-0.23,P < 0.05
+Correlation analysis,spearman_rho_sflt1_plgf_ratio,-0.19,P < 0.05
+Correlation analysis,spearman_rho_maternal_age,0.33,Positive correlation with pregnancy loss; P < 0.05
+Univariate OR,or_progesterone,0.926,95% CI 0.889–0.958; P < 0.001; per 1 ng/mL increase
+Univariate OR,or_fhr,0.969,95% CI 0.952–0.983; P < 0.001; per 1 bpm increase
+Univariate OR,or_mgsd,0.906,95% CI 0.857–0.948; P < 0.001; per 1 mm increase
+Univariate OR,or_bhcg,0.966,95% CI 0.946–0.983; P < 0.001; per 1000 IU/L increase
+Univariate OR,or_cervical_length,0.908,95% CI 0.838–0.973; P < 0.05; per 1 mm increase
+Univariate OR,or_masd,0.962,95% CI 0.930–0.991; P < 0.05; per 1 mm increase
+Univariate OR,or_crl,0.953,95% CI 0.912–0.988; P < 0.05; per 1 mm increase
+Univariate OR,or_sflt1_plgf_ratio,0.983,95% CI 0.965–0.998; P < 0.05
+Univariate OR,or_tt,0.849,95% CI 0.706–0.984; P < 0.05; per 1 mm increase
+Univariate OR,or_age_14_19_vs_20_34,12.545,95% CI 1.113–283.886; P < 0.05
+Univariate OR,or_age_35_46_vs_20_34,4.182,95% CI 1.666–10.817; P < 0.05
+Multivariable MLR,mlr_final_predictors,Progesterone; cervical length; MGSD; trophoblast thickness (TT); sFlt-1:PlGF ratio; maternal age 35–46 years; FHR × MGSD interaction; FHR,Final terms after backward stepwise selection
+Multivariable MLR,mlr_or_progesterone_iqr,0.059,"95% CI 0.01–0.249; P < 0.001; 1-IQR increase, IQR = 24.85 ng/mL"
+Multivariable MLR,mlr_or_cervical_length_iqr,0.356,"95% CI 0.123–0.834; P < 0.05; 1-IQR increase, IQR = 10.10 mm"
+Multivariable MLR,mlr_or_mgsd_iqr,0.188,"95% CI 0.032–0.884; P < 0.05; 1-IQR increase, IQR = 20.22 mm"
+Multivariable MLR,mlr_or_tt_iqr,4.179,"95% CI 1.217–16.468; P < 0.05; 1-IQR increase, IQR = 3.68 mm"
+Multivariable MLR,mlr_or_sflt1_plgf_iqr,0.217,"95% CI 0.034–0.83; P < 0.05; 1-IQR increase, IQR = 37.92"
+Multivariable MLR,mlr_or_age_35_46_vs_20_34,6.832,95% CI 1.628–35.862; P < 0.05
+Multivariable MLR,mlr_or_fhr_mgsd_interaction_iqr,5.036,95% CI 1.13–27.919; P < 0.05; interaction term
+Multivariable MLR,mlr_or_fhr_iqr,2.229,95% CI 0.664–8.92; P = 0.216; retained despite non-significance; IQR = 47.25 bpm
+Multivariable MLR,mlr_intercept_or,0.007,95% CI 0.001–0.045; P < 0.001
+Multivariable MLR,mlr_logit_equation,L = 21.9002 – 0.0681×FHR – 0.1622×CervicalL – 0.7595×MGSD + 0.4103×TT – 0.1099×Progesterone – 0.0713×(sFlt-1:PlGF) + 0.0041×FHR×MGSD + 2.3995×M_age35–46yrs,p = e^L / (1 + e^L)
+Model performance – MLR,mlr_auc,0.89,Area under ROC; reported for training data and consistent with overall performance
+Model performance – MLR,mlr_accuracy,82.7,Overall accuracy %
+Model performance – MLR,mlr_sensitivity_at_0_326,0.80,At probability threshold 0.326
+Model performance – MLR,mlr_specificity_at_0_326,0.80,At probability threshold 0.326
+Model performance – MLR,mlr_sensitivity_high_thresh,0.90,At threshold 0.67; specificity decreases to 0.57
+Model performance – MLR,mlr_specificity_high_thresh,0.57,At threshold 0.67
+Model performance – MLR,mlr_ppv,0.55,Positive predictive value
+Model performance – MLR,mlr_npv,0.90,Negative predictive value
+Model performance – RF,rf_accuracy,93.1,Overall accuracy %
+Model performance – RF,rf_auc_training,0.99,Training set AUC
+Model performance – RF,rf_auc_testing,0.968,Testing set AUC
+Model performance – RF,rf_threshold,0.242,Probability threshold selected for RF
+Model performance – RF,rf_sensitivity_at_0_242,1.0,On testing data
+Model performance – RF,rf_specificity_at_0_242,0.80,On testing data
+Model performance – RF,rf_ppv,0.88,Positive predictive value
+Model performance – RF,rf_npv,1.0,Negative predictive value
+Model performance – comparison,training_confusion_summary,"On training data, RF produced one additional false positive compared with MLR; otherwise similar performance",
+Model performance – comparison,testing_confusion_summary,"On testing data, RF had one false positive and no false negatives; MLR had three false positives and two false negatives",
+Risk of bias / limitations,limitations_sample_size,Relatively small dataset (118 participants); cross-validation and larger samples needed for generalisability,
+Risk of bias / limitations,limitations_overfitting,Very high RF sensitivity and NPV may partly reflect small sample size despite tuning to reduce overfitting,
+Study identifiers,study_id,Shaamash_2020,Internal ID constructed as FirstAuthor_Year
+Study identifiers,first_author,Shaamash,
+Study identifiers,publication_year,2020,
+Study identifiers,journal,Journal of Ultrasound in Medicine,
+Study identifiers,doi,10.1002/jum.15282,
+Study identifiers,country,Egypt (Assiut College of Medicine),Inferred from author affiliation mentioned in article acknowledgments
+Study identifiers,setting,Single-center hospital-based cohort of women with first-trimester threatened miscarriage,Prospective observational study
+Study identifiers,study_design,Prospective observational cohort,Described as prospective observational study
+Study identifiers,recruitment_period,Not clearly stated in excerpt,Recruitment dates not visible in available text
+Study identifiers,funding_source,Not reported,
+Population & eligibility,inclusion_criteria,Women with first-trimester threatened miscarriage (vaginal bleeding with a viable intrauterine pregnancy) between ≥6–12 weeks’ gestation,From Methods: 241 patients with threatened miscarriage (≥6–12 weeks) had a single clinical and US evaluation
+Population & eligibility,exclusion_criteria,Not fully described in available text,Likely excluded non-viable or non-intrauterine pregnancies; details not visible in excerpt
+Population & eligibility,gestational_age_range_weeks,≥6–12,From abstract (≥6–12 weeks’ gestation)
+Population & eligibility,n_recruited,241,241 patients with threatened miscarriage recruited
+Population & eligibility,n_completed,233,233 patients completed follow-up to 28 weeks or miscarriage
+Population & eligibility,n_continued_28w,193,193 pregnancies continued up to 28 weeks’ gestation
+Population & eligibility,n_miscarriage_28w,40,40 miscarried before 28 weeks (17.1%)
+Population & eligibility,miscarriage_rate_percent,17.1,40 of 233 completed pregnancies miscarried
+Outcomes,primary_outcome,Pregnancy continuation up to 28 weeks (yes/no),Objective: predict pregnancy continuation up to 28 weeks in first-trimester threatened miscarriage
+Outcomes,outcome_definition_miscarriage,Miscarriage before 28 weeks’ gestation following index presentation with threatened miscarriage,As reported in abstract: 40 miscarried (17.1%) before 28 weeks
+Clinical predictors,clinical_predictors_list,Bleeding severity (spotting/mild bleeding) and progesterone treatment,Abstract: spotting/mild bleeding episodes and progesterone treatment were the clinical predictors of fetal viability
+Clinical predictors,bleeding_severity_predictor,Spotting/mild bleeding associated with higher chance of fetal viability compared with heavier bleeding,Summarized from conclusion that spotting/mild bleeding predicted viability
+Clinical predictors,progesterone_treatment_predictor,Use of progesterone treatment identified as a predictor of fetal viability,From abstract/conclusions
+Ultrasound predictors,us_predictors_list,"Embryonic/fetal heart rate (E/FHR), crown-rump length (CRL), gestational sac diameter (GSD), and a combined ultrasound triad (E/FHR + CRL + GSD)",From results/conclusions
+Ultrasound predictors,efhr_best_single_predictor,Yes,E/FHR described as the best single ultrasound predictor of fetal viability
+Ultrasound predictors,efhr_specificity_single_marker_percent,95.3,Specificity of E/FHR as single ultrasound predictor
+Ultrasound predictors,efhr_ppv_single_marker_percent,97.2,Positive predictive value of E/FHR as single ultrasound predictor
+Ultrasound predictors,triad_components,"E/FHR, crown-rump length (CRL), gestational sac diameter (GSD)",First-trimester ultrasound triad of fetal viability
+Ultrasound predictors,triad_cutoff_efhr_bpm,>113,E/FHR >113 beats per minute used in triad
+Ultrasound predictors,triad_cutoff_crl_mm,>19.9,CRL >19.9 mm used in triad
+Ultrasound predictors,triad_cutoff_gsd_mm,>27.3,GSD >27.3 mm used in triad
+Ultrasound predictors,triad_specificity_percent,98,Specificity of first-trimester ultrasound triad of fetal viability
+Ultrasound predictors,triad_ppv_percent,99,Positive predictive value of first-trimester ultrasound triad of fetal viability
+Interpretation & counseling,clinical_counseling_implications,"Presence of E/FHR >113 bpm or the full ultrasound triad after a single scan provides a simple, measurable and effective predictor of pregnancy continuation up to 28 weeks; may reduce need for repeated emergency follow-up scans.",From conclusions: triad can improve counseling and decrease repeated emergency follow-up scans but does not replace routine scheduled scans
+Risk of bias,risk_of_bias_overall,Unclear to moderate,Prospective single-center cohort with complete follow-up reported for 233/241; detailed information on blinding and handling of missing data not visible in excerpt
