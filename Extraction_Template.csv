@@ -1,0 +1,121 @@
+﻿Category,VariableName,Description,DataType,CodingNotes,Examples
+Study identifiers,study_id,"Internal ID for the study",string,"Use FirstAuthor_Year","Ku_2025"
+Study identifiers,first_author,"First author surname",string,As published,"Ku"
+Study identifiers,publication_year,"Year of publication",integer,4-digit year,2025
+Study identifiers,journal,"Journal name",string,As published,"Hum Reprod Update"
+Study identifiers,doi,"Digital Object Identifier",string,Use full DOI if available,"10.1186/s12884-017-1261-4"
+Study identifiers,country,"Country or countries of recruitment",string,"If multicentre, separate with ';'","Singapore; UK"
+Study identifiers,setting,"Clinical setting of recruitment",categorical,"EPU; ED; antenatal clinic; fertility clinic; mixed","EPU"
+Study identifiers,study_design,"Study design",categorical,"prospective cohort; retrospective cohort; case-control; RCT secondary analysis","prospective cohort"
+Study identifiers,recruitment_years,"Years participants were recruited",string,"Record range if given","2012–2018"
+Study identifiers,funding_source,"Reported funding",string,"Copy main funder or 'not reported'","Government grant; Industry; None"
+Study identifiers,registration_id,"Trial/registry identifier",string,"ClinicalTrials.gov, ISRCTN, etc., if reported","NCT01234567"
+
+Eligibility & sample,sample_size_total,"Total number of participants analysed",integer,Final analysed N,360
+Eligibility & sample,n_tm,"Number of women with threatened miscarriage at baseline",integer,"If all are TM, same as sample_size_total",360
+Eligibility & sample,n_miscarriage,"Number who miscarried by primary outcome time",integer,"Miscarriage <14 or <16 weeks as defined",90
+Eligibility & sample,n_ongoing,"Number with ongoing pregnancy beyond outcome time",integer,,270
+Eligibility & sample,inclusion_criteria,"Key inclusion criteria",string,"Free-text summary","Viable IUP, vaginal bleeding, GA 5–12 weeks"
+Eligibility & sample,exclusion_criteria,"Key exclusion criteria",string,"Free-text summary","Ectopic, molar, hemodynamic instability"
+Eligibility & sample,ga_range_included,"Gestational age range eligible (weeks)",string,"As reported","5–12"
+
+Baseline maternal,mean_maternal_age,"Mean or median maternal age at recruitment",numeric,"Record unit (years); specify mean/median in notes","31.4"
+Baseline maternal,sd_maternal_age,"SD or IQR of maternal age",numeric,"Specify SD or IQR in notes","4.3"
+Baseline maternal,age_category_used,"Age categories used in analysis",string,"e.g. <30, 30–34, ≥35","<30; 30–34; ≥35"
+Baseline maternal,mean_bmi,"Mean maternal BMI",numeric,kg/m2,"26.1"
+Baseline maternal,sd_bmi,"SD or IQR of BMI",numeric,"Specify SD/IQR in notes","3.9"
+Baseline maternal,nulliparous_n,"Number of nulliparous women",integer,,120
+Baseline maternal,multiparous_n,"Number of multiparous women",integer,,240
+Baseline maternal,prior_miscarriage_any_n,"Number with ≥1 previous miscarriage",integer,If available,100
+Baseline maternal,prior_miscarriage_count_used,"How previous miscarriage was modeled",string,"binary; count; categories","0, 1, ≥2"
+Baseline maternal,smoker_n,"Number of smokers at baseline",integer,,45
+Baseline maternal,assisted_conception_n,"Number conceived via ART/IUI",integer,,18
+
+Presentation,ga_at_presentation_mean,"Gestational age at presentation (mean/median weeks)",numeric,"Prefer weeks+days converted to weeks","7.2"
+Presentation,ga_at_presentation_sd,"SD/IQR of GA at presentation",numeric,"Specify SD/IQR","1.1"
+Presentation,bleeding_severity_scale_used,"Scale used for bleeding severity",string,"none/spotting/light/moderate/heavy; other","4-point scale"
+Presentation,bleeding_severity_distribution,"Proportion in each bleeding category",string,"If reported, capture as text or proportions","light 50%, moderate 30%, heavy 20%"
+Presentation,abdominal_pain_present_n,"Number with abdominal pain at presentation",integer,,
+Presentation,other_symptoms_reported,"Other symptoms recorded",string,"e.g. cramps, back pain","cramping; backache"
+Presentation,vitals_noted,"Whether maternal vital signs recorded/used",string,"yes/no; brief description","BP, HR recorded but not in model"
+
+Ultrasound predictors,viable_iup_confirmed,"Definition/criteria used for viability",string,"e.g. FHR present; CRL > x mm","FHR present >100 bpm"
+Ultrasound predictors,ga_ultrasound_method,"How GA was assessed on ultrasound",string,"CRL; MSD; LMP+CRL; etc.","CRL"
+Ultrasound predictors,crl_mean_mm,"Mean crown–rump length at baseline (mm)",numeric,,10.5
+Ultrasound predictors,crl_sd_mm,"SD/IQR of CRL",numeric,,3.1
+Ultrasound predictors,msd_mean_mm,"Mean mean sac diameter (mm)",numeric,,
+Ultrasound predictors,msd_sd_mm,"SD/IQR of MSD",numeric,,
+Ultrasound predictors,gs_size_crl_discrepancy_used,"Whether GS–CRL discordance used as predictor",string,"yes/no; describe metric","yes; MSD-CRL difference"
+Ultrasound predictors,fhr_mean_bpm,"Mean fetal heart rate (bpm)",numeric,,
+Ultrasound predictors,fhr_cutoff_used,"FHR threshold(s) tested",string,"e.g. ≤110; <120","≤110 bpm"
+Ultrasound predictors,fhr_bradycardia_definition,"Definition of fetal bradycardia",string,"exact bpm definition","<110 bpm"
+Ultrasound predictors,yolk_sac_present_n,"Number with yolk sac visualized",integer,,
+Ultrasound predictors,abnormal_yolk_sac_criteria,"Criteria for abnormal yolk sac",string,"size >6mm; irregular; solid; etc.",">6 mm or irregular"
+Ultrasound predictors,abnormal_yolk_sac_n,"Number with abnormal yolk sac",integer,,
+Ultrasound predictors,sch_present_n,"Number with subchorionic hematoma at baseline",integer,,
+Ultrasound predictors,sch_size_measure,"How SCH size expressed",string,"max diameter; area; volume; % of GS","% of GS"
+Ultrasound predictors,sch_size_categories,"SCH categories if used",string,"small; moderate; large; or numerical cut-offs","<20%, 20–50%, >50% of GS"
+Ultrasound predictors,multiple_gestation_n,"Number of multiple pregnancies",integer,,
+Ultrasound predictors,uterine_anomalies_recorded,"Whether uterine anomalies/fibroids recorded",string,"yes/no; notes","fibroids recorded, not modeled"
+
+Biochemical markers,progesterone_assay_type,"Assay/platform for progesterone",string,"e.g. immunoassay, chemiluminescent","chemiluminescent immunoassay"
+Biochemical markers,progesterone_unit,"Unit for progesterone",string,"ng/mL or nmol/L","ng/mL"
+Biochemical markers,progesterone_mean,"Mean/median baseline progesterone",numeric,"Record value; note mean/median","18.5"
+Biochemical markers,progesterone_cutoffs_tested,"Cut-off(s) evaluated for prognosis",string,"e.g. <10 ng/mL; <35 nmol/L","<11.5 ng/mL; <35 nmol/L"
+Biochemical markers,hcg_unit,"Unit for hCG",string,"IU/L, mIU/mL, etc.","mIU/mL"
+Biochemical markers,hcg_mean,"Mean/median baseline hCG",numeric,,
+Biochemical markers,hcg_trend_used,"Whether serial hCG trend used",string,"yes/no; describe intervals","yes; 48-hour ratio"
+Biochemical markers,ca125_unit,"Unit for CA-125",string,"IU/mL typically","IU/mL"
+Biochemical markers,ca125_mean,"Mean/median CA-125 at baseline",numeric,,
+Biochemical markers,ca125_cutoff_used,"CA-125 thresholds tested",string,"e.g. >31.2 IU/mL",">31.2 IU/mL"
+Biochemical markers,papp_a_used,"Whether PAPP-A measured/used",string,"yes/no","yes"
+Biochemical markers,papp_a_mom,"PAPP-A reported as MoM",numeric,,
+Biochemical markers,estradiol_used,"Whether estradiol measured/used",string,"yes/no","no"
+Biochemical markers,pibf_used,"Whether PIBF measured/used",string,"yes/no","yes"
+Biochemical markers,pibf_mean,"Mean/median PIBF",numeric,,
+Biochemical markers,other_markers_list,"Other biochemical/immune markers used",string,"e.g. sFlt-1, PlGF, cytokines","sFlt-1, PlGF"
+
+Omics markers,omics_type,"Type of omics evaluated",string,"microRNA; metabolomics; proteomics; genomics","microRNA panel"
+Omics markers,omics_panel_details,"Short description of panel",string,"number of markers or platform used","miR-21, miR-210, miR-16"
+Omics markers,omics_cutoffs_or_scores,"How omics information entered in model",string,"single markers; composite score; ML feature set","ML feature vector"
+
+Prediction model details,model_name,"Name/label of prediction model",string,"As given or assign one","Ku_2025_risk_score"
+Prediction model details,model_type,"Model type",categorical,"logistic regression; Cox; CART; random forest; SVM; neural network; other","logistic regression"
+Prediction model details,model_purpose,"Model aim",categorical,"single-marker accuracy; multivariable clinical model; ML model; validation-only","multivariable clinical+biochemical+US model"
+Prediction model details,predictors_in_model,"List of predictors included in final model",string,"Age, GA, FHR, progesterone, prior miscarriage, etc.","Age; GA; FHR; progesterone; prior miscarriage"
+Prediction model details,feature_selection_method,"How predictors were selected",string,"clinical judgement; stepwise; LASSO; tree-based; etc.","clinical + backward stepwise"
+Prediction model details,handling_missing_data,"Method for missing data",string,"complete-case; single imputation; multiple imputation","complete-case"
+Prediction model details,internal_validation_method,"Internal validation approach",string,"none; split-sample; k-fold CV; bootstrapping","bootstrapping"
+Prediction model details,external_validation,"Was there external validation?",string,"none; temporal; geographic; separate cohort","none"
+Prediction model details,model_shrinkage_used,"Any shrinkage/penalisation used",string,"none; ridge; lasso; Firth; etc.","none"
+Prediction model details,model_presentation,"How model is presented",string,"regression equation; nomogram; score chart; app; decision tree","point-based risk score"
+
+Outcomes,outcome_primary_definition,"Definition of primary outcome",string,"e.g. miscarriage <14 weeks; <16 weeks; before viability","spontaneous miscarriage before 14 weeks"
+Outcomes,outcome_secondary_list,"Key secondary outcomes",string,"e.g. preterm birth, SGA, stillbirth","ongoing pregnancy >20 weeks; preterm birth"
+Outcomes,followup_end_ga,"Gestational age at end of follow-up for primary outcome",numeric,"weeks","14"
+Outcomes,miscarriage_n_definition_based,"Number with miscarriage by primary definition",integer,"Ensure consistent with definition",90
+Outcomes,ongoing_pregnancy_n,"Number with ongoing pregnancy beyond primary outcome time",integer,270
+Outcomes,ectopic_or_molar_excluded,"Ectopic/molar pregnancies excluded from analyses",string,"yes/no; notes","yes"
+Outcomes,live_birth_n,"Number with live birth (if reported)",integer,,
+Outcomes,other_adverse_outcomes_recorded,"Any other adverse outcomes recorded",string,"e.g. preterm, IUGR, stillbirth","preterm birth; SGA"
+
+Performance metrics,auc_roc,"Area under ROC curve for main model/marker",numeric,"0–1","0.90"
+Performance metrics,auc_roc_ci,"95% CI for AUC",string,"Lower–upper","0.86–0.93"
+Performance metrics,sensitivity_main_cutoff,"Sensitivity at main pre-specified cut-off",numeric,"Proportion or %; note scale","0.93"
+Performance metrics,specificity_main_cutoff,"Specificity at main pre-specified cut-off",numeric,"Proportion or %","0.88"
+Performance metrics,ppv_main_cutoff,"Positive predictive value at main cut-off",numeric,,
+Performance metrics,npv_main_cutoff,"Negative predictive value at main cut-off",numeric,,
+Performance metrics,lr_positive,"Positive likelihood ratio at main cut-off",numeric,,
+Performance metrics,lr_negative,"Negative likelihood ratio at main cut-off",numeric,,
+Performance metrics,calibration_slope,"Calibration slope (if reported)",numeric,,
+Performance metrics,calibration_intercept,"Calibration intercept (if reported)",numeric,,
+Performance metrics,hosmer_lemeshow_p,"Hosmer–Lemeshow or similar goodness-of-fit p-value",numeric,,
+Performance metrics,decision_curve_reported,"Whether decision-curve / net benefit shown",string,"yes/no; extraction of key findings","yes; clinical net benefit > treat-all for risks 5–20%"
+Performance metrics,net_benefit_values,"Net benefit values at key thresholds",string,"If given, record for selected threshold(s)","NB at 10% and 20% thresholds"
+
+Risk of bias,probast_participants,"PROBAST judgement – Participants",categorical,"low; high; unclear","low"
+Risk of bias,probast_predictors,"PROBAST judgement – Predictors",categorical,"low; high; unclear","low"
+Risk of bias,probast_outcomes,"PROBAST judgement – Outcome",categorical,"low; high; unclear","low"
+Risk of bias,probast_analysis,"PROBAST judgement – Analysis",categorical,"low; high; unclear","high"
+Risk of bias,probast_overall,"PROBAST overall risk of bias",categorical,"low; high; unclear","high"
+Risk of bias,reporting_transparency_notes,"Key comments on reporting quality / TRIPOD adherence",string,"Short narrative notes","No sample size justification; incomplete handling of missing data"
