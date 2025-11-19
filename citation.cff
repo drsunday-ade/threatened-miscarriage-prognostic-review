@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Threatened Miscarriage Prognostic Review: Reproducible Code and Study-Level Data"
+version: "0.1.0"
+date-released: "2025-11-18"
+repository-code: "https://github.com/drsunday-ade/threatened-miscarriage-prognostic-review"
+authors:
+  - family-names: "Adetunji"
+    given-names: "Sunday A."
+    orcid: "https://orcid.org/0000-0001-9321-9957"
+    affiliation: "Department of Epidemiology, College of Health, Oregon State University, Corvallis, OR, USA"
+  - family-names: "Naik"
+    given-names: "Divya"
+    orcid: "https://orcid.org/0009-0004-1001-8412"
+    affiliation: "College of Health, Oregon State University, Corvallis, OR, USA"
+keywords:
+  - "threatened miscarriage"
+  - "prognostic models"
+  - "ultrasound"
+  - "biomarkers"
+  - "systematic review"
+  - "meta-analysis"
+  - "R"
+license: "MIT"
+
+preferred-citation:
+  type: article
+  title: "Prognostic performance of biochemical, ultrasound and multivariable models in first-trimester threatened miscarriage: a systematic review and meta-analysis"
+  authors:
+    - family-names: "Adetunji"
+      given-names: "Sunday A."
+      orcid: "https://orcid.org/0000-0001-9321-9957"
+    - family-names: "Naik"
+      given-names: "Divya"
+      orcid: "https://orcid.org/0009-0004-1001-8412"
+  year: 2025
+  journal: "To be updated"
+  publisher: "To be updated"
+  notes: "Update journal, volume, pages, and DOI when the article is published."
